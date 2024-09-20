@@ -6,26 +6,26 @@
     <title>Practica Formulario</title>
 </head>
 <body>
-    <h1>Registro</h1>
-    <form action="">
-        <table>
+    <h1>Registro</h1 id ="titulo">
+    <form action="" id="formulario">
+        <table id="contenedor-input">
+            <tr class="fila">
+                <td class="columna"><input type="text" name="nom" placeholder="Nombre"></td>
+            </tr class="fila">
             <tr>
-                <td><input type="text" name="nom"></td>
+                <td class="columna"><input type="text" name="ape" placeholder="Apellido(s)"></td>
             </tr>
-            <tr>
-                <td><input type="text" name="ape"></td>
+            <tr class="fila">
+                <td class="columna"><input type="text" name="usu" placeholder="Nombre de usuario"></td>
             </tr>
-            <tr>
-                <td><input type="text" name="usu"></td>
+            <tr class="fila">
+                <td class="columna"><input type="email" name="mail" placeholder="Correo-electrónico@ejemplo.com"></td>
             </tr>
-            <tr>
-                <td><input type="email" name="mail"></td>
+            <tr class="fila">
+                <td class="columna"><input type="password" name="con" placeholder="Contraseña"></td>
             </tr>
-            <tr>
-                <td><input type="password" name="con"></td>
-            </tr>
-            <tr>
-                <td><input type="submit" name="env"></td>
+            <tr class="fila">
+                <td class="columna"><input type="submit" name="env"></td>
             </tr>
         </table>
     </form>
