@@ -1,0 +1,40 @@
+body {
+  /* color de fondo no muy brillante */
+  background-color: #fafafa;
+}
+h1{
+    /* tipo de texto diferente para el titulo */
+    font-family: monospace;
+}
+#formulario {
+  /*extendiendo el formulario por toda la pantalla para centrar la tabla que contiene los inputs  */
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contenedor-input {
+  /* estableciendo un radio y color a el formulario */
+  border: 4px solid #4e4e4e;
+  background-color: #fefefe;
+}
+
+label, .columna{ 
+    font-family:sans-serif;
+    padding: 8px 16px;
+
+}
+input{
+    width: 100%;
+}
+input[type="submit"]{
+    /* estilo para el boton */
+    width: 80px;
+    font-family: sans-serif;
+    background-color: #2549b3;
+    color: #fefefe;
+    border: 0px;
+    cursor: pointer;
+    margin: 2px 100px;
+}

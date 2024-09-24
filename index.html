@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Practica Formulario</title>
 </head>
 <body>
     
     <form action="" id="formulario">
-        <table id="contenedor-input" border="2px">
-            <tr>
-                <th colspan="4"><h1>Registro</h1 id ="titulo"></th>
+        <table id="contenedor-input">
+            <tr class="fila">
+                <th colspan="4" class="columna"><h1>Registro</h1 id ="titulo"></th>
             </tr>
             <tr class="fila">
                 <td colspan="4" class="columna"><input type="text" name="nom" placeholder="Nombre(s)"></td>
@@ -27,7 +28,7 @@
             <tr class="fila">
                 <td colspan="4" class="columna"><input type="password" name="con" placeholder="Contraseña"></td>
             </tr>
-            <tr class="fila"></tr>
+            <tr class="fila">
                 <td><label for="mas">Masculino</label></td>
                 <td class="columna"><input type="radio" name="sex" placeholder="Contraseña" id="mas"></td>
                 <td><label for="mas">Femenino</label></td>
