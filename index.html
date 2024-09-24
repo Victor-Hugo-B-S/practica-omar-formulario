@@ -6,32 +6,35 @@
     <title>Practica Formulario</title>
 </head>
 <body>
-    <h1>Registro</h1 id ="titulo">
+    
     <form action="" id="formulario">
-        <table id="contenedor-input">
+        <table id="contenedor-input" border="2px">
+            <tr>
+                <th colspan="4"><h1>Registro</h1 id ="titulo"></th>
+            </tr>
             <tr class="fila">
-                <td class="columna"><input type="text" name="nom" placeholder="Nombre"></td>
+                <td colspan="4" class="columna"><input type="text" name="nom" placeholder="Nombre(s)"></td>
             </tr class="fila">
             <tr>
-                <td class="columna"><input type="text" name="ape" placeholder="Apellido(s)"></td>
+                <td colspan="4" class="columna"><input type="text" name="ape" placeholder="Apellido(s)"></td>
             </tr>
             <tr class="fila">
-                <td class="columna"><input type="text" name="usu" placeholder="Nombre de usuario"></td>
+                <td colspan="4" class="columna"><input type="text" name="usu" placeholder="Nombre de usuario"></td>
             </tr>
             <tr class="fila">
-                <td class="columna"><input type="email" name="mail" placeholder="Correo-electrónico@ejemplo.com"></td>
+                <td colspan="4" class="columna"><input type="email" name="mail" placeholder="Correo-electrónico@ejemplo.com"></td>
             </tr>
             <tr class="fila">
-                <td class="columna"><input type="password" name="con" placeholder="Contraseña"></td>
+                <td colspan="4" class="columna"><input type="password" name="con" placeholder="Contraseña"></td>
             </tr>
             <tr class="fila"></tr>
-            <td><label for="mas">Masculino</label></td>
+                <td><label for="mas">Masculino</label></td>
                 <td class="columna"><input type="radio" name="sex" placeholder="Contraseña" id="mas"></td>
                 <td><label for="mas">Femenino</label></td>
                 <td class="columna"><input type="radio" name="sex" placeholder="Contraseña" id="fem" ></td>
             </tr>
             <tr class="fila">
-                <td class="columna"><input type="submit" name="env"></td>
+                <td colspan="4" class="columna"><input type="submit" name="env"></td>
             </tr>
         </table>
     </form>
