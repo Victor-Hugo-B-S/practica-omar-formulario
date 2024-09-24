@@ -38,3 +38,6 @@ input[type="submit"]{
     cursor: pointer;
     margin: 2px 100px;
 }
+input[type="radio"]{
+    cursor: pointer;
+}
